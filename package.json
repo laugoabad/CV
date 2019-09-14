@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laugoabad/CV.git"
+  },
+  "author": "Laura Gonzalez Abad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laugoabad/CV/issues"
+  },
+  "homepage": "https://github.com/laugoabad/CV#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

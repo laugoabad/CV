@@ -1,0 +1,26 @@
+
+@-webkit-keyframes cambioBackground {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: rgba(56, 42, 42, 0.80);
+    }
+}
+
+@keyframes cambioBackground {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: rgb(56, 42, 42,0.8);
+    }
+}
+
+.cambioBackground {
+    animation: cambioBackground 0.5s ease-in 3s both;
+}
+
+.slideUp {
+  transform: translateY(-10rem);
+}

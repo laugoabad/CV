@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 100%;
+}
+
+.nav-item {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  margin: 0rem 0.5rem;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+  margin: 0rem 0rem 8rem 0rem;
+  padding: 1.5rem;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 0.8rem;
+  color: red;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  transition: transform 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.titulo1 {
+  font-size: 1.3rem;
+  color: black;
+  margin: 8rem 0rem 2rem 0rem;
+  font-family: 'Playfair', serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.titulo-2 {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  animation-duration: 3s;
+}
+
+.seccion {
+  background-color: #EFEBE9;
+  margin-top: 7rem;
+  padding: 2.5rem;
+  width: 20vh;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.titulo-seccion {
+  color: #8D6E63;
+  font-size: 1.5rem;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.sub-seccion {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.8rem;
+}
+
+.list-group-item {
+  padding: 0.3rem 0rem;
+  margin: 0rem;
+  border: none;
+}
+
+.texto-chico {
+  color: #8D6E63;
+  font-size: 0.8rem;
+}
+
+.icono {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+@media(min-width:768px) {
+  .navbar-light .navbar-brand {
+    font-size: 1rem;
+  }
+  .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .nav-item {
+    font-size: 1rem;
+  }
+  .titulo1 {
+    font-size: 2.6rem;
+    margin: 12rem 0 4rem 0;
+  }
+  .titulo-2 {
+    font-size: 2rem;
+  }
+  .icono {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .slideUp {
+    transform: translateY(-20rem);
+  }
+}
+
+@media(min-width: 1024px) {
+  .titulo1 {
+    font-size: 5rem;
+  }
+  .titulo-2 {
+    font-size: 3.5rem
+  }
+
+}
