@@ -7,7 +7,7 @@ body {
 .nav-item {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
-  margin: 0rem 0.5rem;
+  margin: 0rem;
 }
 
 a, a:visited, a:link {
@@ -17,15 +17,18 @@ a, a:visited, a:link {
 
 .navbar {
   background-color: white;
-  margin: 0rem 0rem 8rem 0rem;
   padding: 1.5rem;
-}
+  margin: 0rem;
 
+}
+.navbar-toggler {
+  margin-right: 6rem;
+}
 .navbar-light .navbar-brand {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: red;
   font-family: 'Cinzel', serif;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   font-weight: bolder;
 }
 
