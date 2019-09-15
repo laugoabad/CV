@@ -21,9 +21,9 @@ a, a:visited, a:link {
   margin: 0rem;
 
 }
-.navbar-toggler {
-  margin-right: 6rem;
-}
+/* .navbar-toggler {
+  margin-right: 4rem;
+} */
 .navbar-light .navbar-brand {
   font-size: 0.8rem;
   color: red;
