@@ -9,7 +9,7 @@ jQuery(function ($) {
     $('#espaniol').addClass('.w3-animate-fading');
     $('#english').addClass('.w3-animate-fading, .delay')
   }
-
+  
   $(window).ready(stopAnimation);
   $(window).ready(playAnimation);
 
