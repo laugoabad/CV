@@ -7,7 +7,7 @@ body {
 .nav-item {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
-  margin: 0rem;
+  margin: 0rem 0.5rem;
 }
 
 a, a:visited, a:link {
@@ -21,9 +21,7 @@ a, a:visited, a:link {
   margin: 0rem;
 
 }
-/* .navbar-toggler {
-  margin-right: 4rem;
-} */
+
 .navbar-light .navbar-brand {
   font-size: 0.8rem;
   color: red;
@@ -44,7 +42,7 @@ a, a:visited, a:link {
 .titulo1 {
   font-size: 1.3rem;
   color: black;
-  margin: 8rem 0rem 2rem 0rem;
+  margin: 8rem 0rem 1rem 0rem;
   font-family: 'Playfair', serif;
   font-weight: 700;
   letter-spacing: 0.2rem;

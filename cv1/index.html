@@ -3,7 +3,7 @@
 
 <head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie.edge">
   <title>Laura Gonzalez Abad | Front End Developer</title>
@@ -16,6 +16,15 @@
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </head>
 
 <body class="cambioBackground">
@@ -52,116 +61,109 @@
     </nav>
 
     <div class="container">
-    <div class="animated fadeOutUp delay-3s">
-      <div class="row mx-auto animated fadeInLeft slow">
-        <div class="col">
-          <div class="titulo1 text-center text-justify"> LAURA GONZALEZ ABAD</div>
+      <div class="animated fadeOutUp delay-3s">
+        <div class="row mx-auto animated fadeInLeft slow">
+          <div class="col">
+            <div class="titulo1 text-center text-justify"> LAURA GONZALEZ ABAD</div>
+          </div>
+        </div>
+        <div class="row mx-auto animated fadeInRight">
+          <div class="col">
+            <div class="titulo-2 text-center text-justify">FRONT END DEVELOPER</div>
+          </div>
         </div>
       </div>
-      <div class="row mx-auto animated fadeInRight">
-        <div class="col">
-          <div class="titulo-2 text-center text-justify">FRONT END DEVELOPER</div>
+
+      <div class="contenedor-secciones slideUp">
+        <div id="about" class="row animated fadeIn delay-4s">
+          <section class="col-lg-6 col-12 center-block seccion">
+            <h3 class="titulo-seccion">Acerca de Mí</h3>
+            <p>Soy una Front-End Developer con conocimientos de Back End.</p>
+            <p>Mis Habilidades principales son: HTML, CSS / SASS, Bootstrap (mobile first), JavaScript / jQuery, algo
+              de
+              WordPress, Git, MySQL, Node / Express.js. En éste momento estoy haciendo un curso de Vue.js</p>
+            <p>La atención a los detalles funcionales y estéticos, hacer que las cosas se realicen
+              mediante el logro de objetivos alcanzables son cuestiones que tengo siempre presentes en mi trabajo.</p>
+            <p>Tengo mucha facilidad para aprender y me adapto fácilmente a lo que sea necesario.
+              Estoy dispuesta a viajar, soy curiosa por naturaleza y me encantan los desafíos.</p>
+          </section>
         </div>
+
+        <div id="formacion" class="row" data-aos="fade-left" data-aos-duration="500">
+          <section class="col-lg-6 col-12 center-block seccion">
+            <h3 class="titulo-seccion">Formación</h3>
+            <div class="sub-seccion">Full Stack Developer</div>
+            <div class="texto-chico">ACAMICA - 2018</div>
+            <div class="sub-seccion">Experto en Project Management</div>
+            <div class="texto-chico">UTN - 2012</div>
+            <div class="sub-seccion">Analista de Sistemas</div>
+            <div class="texto-chico">UB - 1988</div>
+          </section>
+        </div>
+
+
+        <div id="portfolio" class="row" data-aos="fade-right" data-aos-duration="500">
+          <section class="col-lg-6 col-12 center-block seccion">
+            <h3 class="titulo-seccion">Portfolio</h3>
+            <a href="http://mattianebiolo.tk" class="sub-seccion" target="_blank">Mattia Nebiolo
+              Architetto</a></br></br>
+            <a href="http://rompecabezas.tk" class="sub-seccion" target="_blank">Rompecabezas</a><br><br>
+            <a href="https://laugoabad.github.io/ProyectosTraineeBlog/" class="sub-seccion" target="_blank">Blog</a>
+          </section>
+        </div>
+
+        <div id="experiencia" class="row" data-aos="fade-left" data-aos-duration="500">
+          <section class="col-lg-6 col-12 center-block seccion">
+            <h3 class="titulo-seccion">Experiencia</h3>
+            <h4 class="sub-seccion">Freelance</h4>
+            <h6>2019</h6>
+            <p>Diseño y puesta en producción de Landing Pages .
+              <br>Personalización de temas y carga de contenido en Wordpress.</p>
+            <h4 class="sub-seccion">Estudio Propio</h4>
+            <h6>2018 - 2004</h6>
+            <p>Refacción y construcción de casas, departamentos y locales comerciales.</p>
+            <h4 class="sub-seccion">Subtronic</h4>
+            <h6>1989 - 2000</h6>
+            <p>Realización de estudios utilizando software FLEX para determinar la configuración de líneas de mangueras
+              flotantes para la carga y descarga de combustibles en mar.<br>
+              Tareas de instalación de software para centrales meteorológicas.<br>
+              Gestión de tareas contables y administrativas.
+            </p>
+          </section>
+        </div>
+
+        <div id="contacto" class="row" data-aos="fade-right" data-aos-duration="500">
+          <section class="col-lg-6 col-12 center-block seccion">
+            <h3 class="titulo-seccion">Contacto</h3>
+            <ul class="list-group">
+              <li class="list-group-item"><a href="mailto:laugoabad@gmail.com"><img
+                    src="./imgs/iconmonstr-email-11-240.png" class="icono"><span class="texto-chico">laugoabad@gmail.com
+                  </span></a>
+              </li>
+              <li class="list-group-item"><img src="./imgs/iconmonstr-phone-9-240.png" class="icono"><span
+                  class="texto-chico">+54 9 11 5122 6486 </span>
+              </li>
+              <li class="list-group-item"><img src="./imgs/iconmonstr-skype-5-240.png" class="icono"><span
+                  class="texto-chico">laugoabad</span>
+              </li>
+              <li class="list-group-item"><img src="./imgs/iconmonstr-location-2-240.png" class="icono"><span
+                  class="texto-chico">Vicente López-Buenos Aires-Argentina</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+
       </div>
     </div>
-   
-      <div class="contenedor-secciones animated fadeIn delay-4s slideUp">
-        <div id="about" class="row ">
-        <section class="col-lg-6 col-12 center-block seccion">
-          <h3 class="titulo-seccion">Acerca de Mí</h3>
-          <p>Soy una Front-End Developer con conocimientos de Back End.</p>
-          <p>Mis Habilidades principales son: HTML, CSS / SASS, Bootstrap (mobile first), JavaScript / jQuery, algo de
-            WordPress, Git, MySQL, Node / Express.js. En éste momento estoy haciendo un curso de Vue.js</p>
-          <p>La atención a los detalles funcionales y estéticos, hacer que las cosas se realicen
-            mediante el logro de objetivos alcanzables son cuestiones que tengo siempre presentes en mi trabajo.</p>
-          <p>Tengo mucha facilidad para aprender y me adapto fácilmente a lo que sea necesario.
-            Estoy dispuesta a viajar, soy curiosa por naturaleza y me encantan los desafíos.</p>
-        </section>
-      </div>
-
-      <div id="formacion" class="row" data-aos="fade-left" data-aos-duration="500">
-        <section class="col-lg-6 col-12 center-block seccion">
-          <h3 class="titulo-seccion">Formación</h3>
-          <div class="sub-seccion">Full Stack Developer</div>
-          <div class="texto-chico">ACAMICA - 2018</div>
-          <div class="sub-seccion">Experto en Project Management</div>
-          <div class="texto-chico">UTN - 2012</div>
-          <div class="sub-seccion">Analista de Sistemas</div>
-          <div class="texto-chico">UB - 1988</div>
-        </section>
-      </div>
-
-
-      <div id="portfolio" class="row" data-aos="fade-right" data-aos-duration="500">
-        <section class="col-lg-6 col-12 center-block seccion">
-          <h3 class="titulo-seccion">Portfolio</h3>
-          <a href="http://mattianebiolo.tk" class="sub-seccion" target="_blank">Mattia Nebiolo Architetto</a></br></br>
-          <a href="http://rompecabezas.tk" class="sub-seccion" target="_blank">Rompecabezas</a><br><br>
-          <a href="https://laugoabad.github.io/ProyectosTraineeBlog/" class="sub-seccion" target="_blank">Blog</a>
-        </section>
-      </div>
-
-      <div id="experiencia" class="row" data-aos="fade-left" data-aos-duration="500">
-        <section class="col-lg-6 col-12 center-block seccion">
-          <h3 class="titulo-seccion">Experiencia</h3>
-          <h4 class="sub-seccion">Freelance</h4>
-          <h6>2019</h6>
-          <p>Diseño y puesta en producción de Landing Pages .
-            <br>Personalización de temas y carga de contenido en Wordpress.</p>
-          <h4 class="sub-seccion">Estudio Propio</h4>
-          <h6>2018 - 2004</h6>
-          <p>Refacción y construcción de casas, departamentos y locales comerciales.</p>
-          <h4 class="sub-seccion">Subtronic</h4>
-          <h6>1989 - 2000</h6>
-          <p>Realización de estudios utilizando software FLEX para determinar la configuración de líneas de mangueras
-            flotantes para la carga y descarga de combustibles en mar.<br>
-            Tareas de instalación de software para centrales meteorológicas.<br>
-            Gestión de tareas contables y administrativas.
-          </p>
-        </section>
-      </div>
-
-      <div id="contacto" class="row" data-aos="fade-right" data-aos-duration="500">
-        <section class="col-lg-6 col-12 center-block seccion">
-          <h3 class="titulo-seccion">Contacto</h3>
-          <ul class="list-group">
-            <li class="list-group-item"><a href="mailto:laugoabad@gmail.com"><img
-                  src="./imgs/iconmonstr-email-11-240.png" class="icono"><span class="texto-chico">laugoabad@gmail.com
-                </span></a>
-            </li>
-            <li class="list-group-item"><img src="./imgs/iconmonstr-phone-9-240.png" class="icono"><span
-                class="texto-chico">+54 9 11 5122 6486 </span>
-            </li>
-            <li class="list-group-item"><img src="./imgs/iconmonstr-skype-5-240.png" class="icono"><span
-                class="texto-chico">laugoabad</span>
-            </li>
-            <li class="list-group-item"><img src="./imgs/iconmonstr-location-2-240.png" class="icono"><span
-                class="texto-chico">Vicente López-Buenos Aires-Argentina</span>
-            </li>
-          </ul>
-        </section>
-      </div>
   </div>
- </div>
-  </div>
-</body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+
   <script src="js/wow.min.js"></script>
-<script src="../node_modules/aos/dist/aos.js"></script>
+  <script src="../node_modules/aos/dist/aos.js"></script>
 
   <script>
     AOS.init();
   </script>
-  <script>
-    new WOW().init();
-  </script>
   <script src="./js/cv.js"></script>
-
+</body>
 
 </html>
