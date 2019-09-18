@@ -31,10 +31,9 @@ a, a:visited, a:link {
 
 .navbar-light .navbar-nav .nav-link {
   transition: transform 1s; }
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: red;
-  transform: scale(1.2); }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+    transform: scale(1.2); }
 
 .navbar-collapse {
   background-color: white; }

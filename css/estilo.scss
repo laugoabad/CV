@@ -32,14 +32,14 @@ a, a:visited, a:link {
   font-size: 0.8rem;
   color: red;
   letter-spacing: 0.2rem;
-  font-weight: bolder; }
+  font-weight: bolder }
 
 .navbar-light .navbar-nav .nav-link {
-  transition: transform 1s; }
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: red;
-  transform: scale(1.2); }
+  transition: transform 1s;
+&:hover {
+    color: red;
+    transform: scale(1.2)
+}}
 
 .navbar-collapse {
   background-color: white;
