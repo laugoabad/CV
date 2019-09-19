@@ -29,7 +29,7 @@ body {
 
 .nav-link {
   font-style: 'Quicksand', 'sans';
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
@@ -116,7 +116,7 @@ hr {
 }
 
 .about p.animate, .portfolio p.animate, .experience p.animate, .contact p.animate {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   width: 100%;
   height: 100%;
   opacity: 1;
